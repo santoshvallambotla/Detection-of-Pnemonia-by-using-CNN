@@ -1,0 +1,31 @@
+1.Setup Environment:
+ Ensure you have Python installed on your system. You can download and install it from the official Python website: https://www.python.org/downloads/
+Install Flask and other required libraries by running `pip install flask scikit-learn matplotlib seaborn pandas numpy.
+
+2. Download Dataset:
+Download the dataset Chest X-Ray Dataset From Kaggle and place it in the appropriate directory (/content/) as mentioned in your code.
+
+3. Run Model Training Script:
+Execute the Python script containing the model training and evaluation code. Make sure you execute this script in an environment where you have the necessary libraries installed and access to the dataset.
+
+“python
+python model_training_script.py”
+
+4. Run Flask Application:
+    Execute the Flask application script (app.py) to start the web server.
+
+   “python python app.py”
+
+5. Access the Web Application:
+ Once the Flask application is running, open a web browser and navigate to http://127.0.0.1:5000/ or http://localhost:5000/ to access the web application.
+   - You should see the homepage of the application. Follow the instructions to proceed with predicting of pneumonia.
+
+6. Enter Composition Values:
+   Click on the "Start" button to navigate to the form page.
+   Enter the composition values of the wine sample into the form fields.
+
+7. Submit Form:
+   Click on the "Submit" button after entering all the required composition values.
+
+8. View Prediction:
+After submitting the form, you'll be redirected to a page displaying the person is affected by pneumonia or not.
